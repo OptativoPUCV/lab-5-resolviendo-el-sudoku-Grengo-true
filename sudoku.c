@@ -114,7 +114,7 @@ List* get_adj_nodes(Node* n){
             Node* new_node = (Node*) malloc(sizeof(Node));
             for(int p = 0; p < 9; p++)
             {
-              for(int q = 0; q < 10; q++)
+              for(int q = 0; q < 9; q++)
               {
                 new_node->sudo[p][q] = n->sudo[p][q];
               }
