@@ -40,3 +40,14 @@ Sun, May 18, 2025  9:12:24 PM:
  tests:  7|1
 total_score: 55/70
 1ff3e9e
+Sun, May 18, 2025  9:20:10 PM: 
+ sudoku.c | 34 ++++++++++++++++++++++++++++++++++
+ 1 file changed, 34 insertions(+)
+Compilation failed
+In file included from test.c:5:0:
+sudoku.c: In function 'DFS':
+sudoku.c:164:14: error: implicit declaration of function 'isempty' [-Werror=implicit-function-declaration]
+       while(!isempty(S))
+              ^~~~~~~
+cc1.exe: all warnings being treated as errors
+7df4980
